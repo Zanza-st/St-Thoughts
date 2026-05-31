@@ -7,6 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#0c0c0c",
+    "scheme": "stthoughts",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,9 +18,11 @@
       "supportsTablet": false,
       "bundleIdentifier": "com.stthoughts.app",
       "buildNumber": "1",
+      "requireFullScreen": true,
       "infoPlist": {
-        "NSCameraUsageDescription": "Used for profile photos.",
-        "NSPhotoLibraryUsageDescription": "Used for profile photos."
+        "NSCameraUsageDescription": "Used to set your profile photo.",
+        "NSPhotoLibraryUsageDescription": "Used to set your profile photo.",
+        "UIBackgroundModes": ["remote-notification"]
       }
     },
     "android": {
@@ -29,7 +32,12 @@
       },
       "package": "com.stthoughts.app",
       "versionCode": 1,
-      "permissions": []
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "RECEIVE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -38,14 +46,20 @@
       [
         "expo-build-properties",
         {
-          "ios": {
-            "deploymentTarget": "15.1"
-          },
+          "ios": { "deploymentTarget": "15.1" },
           "android": {
             "compileSdkVersion": 35,
             "targetSdkVersion": 35,
             "minSdkVersion": 26
           }
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#c4a882",
+          "sounds": []
         }
       ]
     ],
@@ -53,6 +67,7 @@
       "eas": {
         "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
       }
-    }
+    },
+    "owner": "REPLACE_WITH_EXPO_USERNAME"
   }
 }

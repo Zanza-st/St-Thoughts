@@ -408,3 +408,8 @@ end;$$;
 
 create trigger ideas_updated_at before update on ideas
   for each row execute function set_updated_at();
+
+-- ============================================================
+-- PUSH NOTIFICATIONS — add token column to profiles
+-- ============================================================
+alter table profiles add column if not exists push_token text;

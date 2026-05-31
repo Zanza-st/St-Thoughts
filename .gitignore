@@ -1,3 +1,7 @@
 node_modules/
 .env
 .expo/
+google-play-service-account.json
+*.p8
+*.p12
+*.mobileprovision
