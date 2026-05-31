@@ -36,13 +36,13 @@ Whether you're an idea person, a builder, an investor, or a collaborator — ST 
 ideas,startup,creative,marketplace,collab,innovation,brainstorm,pitch,trade,network,think,ideation
 
 ### Support URL
-https://REPLACE_WITH_GITHUB_USERNAME.github.io/st-thoughts/
+https://Zanza-st.github.io/st-thoughts/
 
 ### Privacy Policy URL
-https://REPLACE_WITH_GITHUB_USERNAME.github.io/st-thoughts/privacy.html
+https://Zanza-st.github.io/st-thoughts/privacy.html
 
 ### Marketing URL (optional)
-https://REPLACE_WITH_GITHUB_USERNAME.github.io/st-thoughts/
+https://Zanza-st.github.io/st-thoughts/
 
 ### Category
 Social Networking
@@ -95,7 +95,7 @@ Social
 ideas · startup · creativity · marketplace · collaboration · innovation
 
 ### Privacy Policy URL
-https://REPLACE_WITH_GITHUB_USERNAME.github.io/st-thoughts/privacy.html
+https://Zanza-st.github.io/st-thoughts/privacy.html
 
 ### Content Rating
 Everyone
