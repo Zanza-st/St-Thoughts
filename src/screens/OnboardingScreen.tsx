@@ -183,18 +183,18 @@ const s = StyleSheet.create({
   container: { padding: 22, paddingTop: 48, paddingBottom: 40 },
   hero: { marginBottom: 24 },
   wordmark: { fontFamily: 'BebasNeue_400Regular', fontSize: 42, color: '#c4a882', letterSpacing: 3 },
-  wordmarkSub: { fontFamily: 'DMSans_300Light', fontSize: 12, color: '#505050', letterSpacing: 4, marginTop: 4 },
+  wordmarkSub: { fontFamily: 'DMSans_400Regular', fontSize: 12, color: '#505050', letterSpacing: 4, marginTop: 4 },
   tagline: { fontFamily: 'PlayfairDisplay_400Regular_Italic', fontSize: 20, color: '#888', marginTop: 20, lineHeight: 28 },
   stepDots: { flexDirection: 'row', gap: 6, marginBottom: 24 },
   dot: { flex: 1, height: 3, borderRadius: 2, backgroundColor: '#2a2a2a' },
   dotActive: { backgroundColor: '#c4a882' },
   dotDone: { backgroundColor: '#8a6840' },
   question: { fontFamily: 'PlayfairDisplay_600SemiBold', fontSize: 22, color: '#efefef', marginBottom: 8 },
-  subtext: { fontFamily: 'DMSans_300Light', fontSize: 14, color: '#888', marginBottom: 20, lineHeight: 20 },
+  subtext: { fontFamily: 'DMSans_400Regular', fontSize: 14, color: '#888', marginBottom: 20, lineHeight: 20 },
   input: {
     backgroundColor: '#1c1c1c', borderWidth: 1, borderColor: '#2a2a2a',
     borderRadius: 10, padding: 14, color: '#efefef', fontSize: 15,
-    fontFamily: 'DMSans_300Light', marginBottom: 10,
+    fontFamily: 'DMSans_400Regular', marginBottom: 10,
   },
   btnPrimary: {
     backgroundColor: '#8a6840', borderRadius: 12,
@@ -208,7 +208,7 @@ const s = StyleSheet.create({
   },
   interestChipOn: { borderColor: '#8a6840', backgroundColor: '#1a1410' },
   interestIcon: { fontSize: 22, marginBottom: 6 },
-  interestLabel: { fontFamily: 'DMSans_300Light', fontSize: 11, color: '#888', letterSpacing: 1 },
+  interestLabel: { fontFamily: 'DMSans_400Regular', fontSize: 11, color: '#888', letterSpacing: 1 },
   interestLabelOn: { color: '#c4a882' },
   roleOpt: {
     flexDirection: 'row', alignItems: 'center', padding: 14,
@@ -219,5 +219,5 @@ const s = StyleSheet.create({
   roleText: { flex: 1 },
   roleName: { fontFamily: 'DMSans_500Medium', fontSize: 15, color: '#888' },
   roleNameOn: { color: '#c4a882' },
-  roleSub: { fontFamily: 'DMSans_300Light', fontSize: 10, color: '#505050', marginTop: 2, letterSpacing: 1 },
+  roleSub: { fontFamily: 'DMSans_400Regular', fontSize: 10, color: '#505050', marginTop: 2, letterSpacing: 1 },
 })

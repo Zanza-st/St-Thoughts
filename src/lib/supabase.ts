@@ -56,6 +56,7 @@ export type Listing = {
   asking_price_cents: number | null
   barter_wants: string[]
   status: 'active' | 'under_offer' | 'sold' | 'closed'
+  created_at: string
 }
 
 export type Comment = {
